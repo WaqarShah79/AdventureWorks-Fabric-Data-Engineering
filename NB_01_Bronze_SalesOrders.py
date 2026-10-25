@@ -1,4 +1,5 @@
-# Read sales order data from the Fabric Lakehousedf = spark.read.table("SalesOrders")
+# Read sales order data from the Fabric Lakehouse
+df = spark.read.table("SalesOrders")
 display(df.limit(10))
 df.write.format("delta").mode("overwrite").saveAsTable("Bronze_SalesOrders")
 spark.read.table("Bronze_SalesOrders").count()
