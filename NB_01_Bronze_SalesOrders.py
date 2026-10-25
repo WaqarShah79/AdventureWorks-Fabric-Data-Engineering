@@ -1,7 +1,6 @@
 df = spark.read.table("SalesOrders")
 display(df.limit(10))
 df.write.format("delta").mode("overwrite").saveAsTable("Bronze_SalesOrders")
-df.write.format("delta").mode("overwrite").saveAsTable("Bronze_SalesOrders")
 spark.read.table("Bronze_SalesOrders").count()
 
 df = spark.read.table("Bronze_SalesOrders")
