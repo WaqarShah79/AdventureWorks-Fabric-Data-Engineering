@@ -51,5 +51,4 @@ The Bronze, Silver and Gold tables have been created and validated in Microsoft 
 - Explore incremental data loading.
 - Build a Power BI report using the Gold layer.
 - Document pipeline execution and testing.
-# AdventureWorks-Fabric-Data-Engineering
-End-to-end data engineering project using Microsoft Fabric, PySpark, Lakehouse and Medallion architecture
+
