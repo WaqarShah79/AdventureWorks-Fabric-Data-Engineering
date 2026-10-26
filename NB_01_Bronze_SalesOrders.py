@@ -8,6 +8,7 @@ df = spark.read.table("Bronze_SalesOrders")
 
 print("Total rows:", df.count())
 print("Distinct sales orders:", df.select("SalesOrderID").distinct().count())
+# Clean Bronze data by filtering out records with missing key fields
 from pyspark.sql.functions import col
 
 silver_df = (
