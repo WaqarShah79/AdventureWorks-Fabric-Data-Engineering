@@ -26,7 +26,7 @@ silver_df.write.format("delta").mode("overwrite").saveAsTable("Silver_SalesOrder
 print("Silver rows:", spark.read.table("Silver_SalesOrders").count())
 
 # Aggregate revenue and order counts by sales territory for the Gold layer
-from pyspark.sql.functions import sum, count
+
 
 silver_df = spark.read.table("Silver_SalesOrders")
 
