@@ -27,6 +27,7 @@ from pyspark.sql.functions import sum, count
 
 silver_df = spark.read.table("Silver_SalesOrders")
 
+# Aggregate revenue and order counts by sales territory for the Gold layer
 gold_df = (
     silver_df
     .groupBy("TerritoryID")
