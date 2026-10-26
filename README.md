@@ -37,7 +37,7 @@ Local SQL Server → CSV Export → Microsoft Fabric Lakehouse → Bronze → Si
 
 The current sample dataset contains 100 sales orders across 10 territories.
 
-Validation checks confirmed 100 distinct sales orders in Bronze and 100 orders represented in the Gold aggregation.
+Validation checks confirmed 100 distinct sales orders in Bronze and 100 orders represented in the Gold aggregation.![Gold Layer Output](images/Screenshot%202026-10-26%20at%2004.31.41.png)
 
 ## Current Status
 
