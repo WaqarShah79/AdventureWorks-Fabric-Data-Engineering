@@ -51,4 +51,17 @@ The Bronze, Silver and Gold tables have been created and validated in Microsoft 
 - Explore incremental data loading.
 - Build a Power BI report using the Gold layer.
 - Document pipeline execution and testing.
+- ## Incremental Loading and Upsert Demonstration
+
+To explore incremental data processing, I created a separate demonstration in Microsoft Fabric using fictional sales order data.
+
+The demonstration covers:
+
+- **Initial load:** Created three sample orders.
+- **Incremental load:** Appended two new orders, bringing the total to five.
+- **Upsert:** Updated an existing order using Delta Lake `MERGE` logic.
+- **Data validation:** Confirmed five total rows and five unique order IDs, with no duplicate orders.
+- **Update verification:** Order `900002` was updated from `250.00` to `200.00`, with its `ModifiedDate` reflecting the test update.
+
+This demonstrates how new records can be added and existing records updated without duplicating matching order IDs. The incremental-loading exercise uses simulated data within Fabric and is separate from the main Bronze, Silver and Gold sales pipeline; it is not a live SQL Server integration.
 
