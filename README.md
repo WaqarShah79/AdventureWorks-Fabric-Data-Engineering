@@ -69,5 +69,5 @@ This demonstrates how new records can be added and existing records updated with
 
 The Gold Sales by Territory data is visualised in Power BI, presenting total revenue, total orders and territory-level performance.
 
-![AdventureWorks Sales Performance Dashboard](images/AdventureWorks_Sales_Dashboard.png)
+![AdventureWorks Sales Performance Dashboard](images/Screenshot%202026-10-31%20at%2021.40.png)
 
