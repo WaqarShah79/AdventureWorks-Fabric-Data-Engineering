@@ -65,3 +65,9 @@ The demonstration covers:
 
 This demonstrates how new records can be added and existing records updated without duplicating matching order IDs. The incremental-loading exercise uses simulated data within Fabric and is separate from the main Bronze, Silver and Gold sales pipeline; it is not a live SQL Server integration.
 
+## Power BI Sales Performance Dashboard
+
+The Gold Sales by Territory data is visualised in Power BI, presenting total revenue, total orders and territory-level performance.
+
+![AdventureWorks Sales Performance Dashboard](images/AdventureWorks_Sales_Dashboard.png)
+
